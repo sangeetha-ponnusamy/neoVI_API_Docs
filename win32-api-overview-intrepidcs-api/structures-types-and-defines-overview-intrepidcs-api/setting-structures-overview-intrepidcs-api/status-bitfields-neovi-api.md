@@ -88,6 +88,13 @@ const long SPY_STATUS2_ETHERNET_FCS_AVAILABLE = 0x800000;
 const long SPY_STATUS3_LIN_JUST_BREAK_SYNC = 1;
 const long SPY_STATUS3_LIN_SLAVE_DATA_TOO_SHORT = 2;
 const long SPY_STATUS3_LIN_ONLY_UPDATE_SLAVE_TABLE_ONCE = 4;
+
+//Spy Status Bitfield 3 constants CAN FD
+const long SPY_STATUS3_CANFD_ESI = 0x01;
+const long SPY_STATUS3_CANFD_IDE = 0x02;
+const long SPY_STATUS3_CANFD_RTR = 0x04;
+const long SPY_STATUS3_CANFD_FDF = 0x08;
+const long SPY_STATUS3_CANFD_BRS = 0x10;
 ```
 {% endtab %}
 
